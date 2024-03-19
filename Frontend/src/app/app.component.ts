@@ -29,7 +29,7 @@ import { map } from 'rxjs/operators';
             <ng-template kendoGridToolbarTemplate>
                 <button kendoGridAddCommand>Add new</button>
             </ng-template>
-            <kendo-grid-column [ariaDisabled]=""] field="courseId" title="Course Id"></kendo-grid-column>
+            <kendo-grid-column [ariaDisabled]="" field="courseId" title="Course Id"></kendo-grid-column>
             <kendo-grid-column field="courseCode" title="Course Code"></kendo-grid-column>
             <kendo-grid-column field="courseName"  title="Course name"></kendo-grid-column>
             <kendo-grid-command-column title="Actions" [width]="220">
